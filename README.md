@@ -1,8 +1,9 @@
-## Titanic Survival Prediction: Machine Learning Analysis 
-## Author: Adeyeye Blessing Temidayo
-## CIN: PIT/DEC25/10676 
-Repository: 
 PRODIGY_DS_02
+---
+Author: Adeyeye Blessing Temidayo
+CIN: PIT/DEC25/10676 
+---
+## 🚢 Titanic Survival Prediction: Machine Learning Analysis 
 
 ## 📌 Project Overview
 This project performs a comprehensive analysis of the Titanic dataset to predict passenger survival using machine learning.
@@ -14,27 +15,27 @@ between model interpretability and predictive power.
 Source: Prodigy InfoTech / Kaggle Titanic Dataset
 Records: 891 passengers
 Original Features: PassengerId, Survived, Pclass, Name, Sex, Age, SibSp, Parch, Ticket, Fare, Cabin, Embarked
-Engineered Features: Has_Cabin, Title, Family_Size, Age_Group, Fare_Category, Is_Alone
+Engineered Features:  Title, FamilySize, AgeGroup, FareGroup, Alone
 
 ## 🎯 Key Objectives
 Perform thorough Data Cleaning and Feature Engineering.
 
-Conduct Exploratory Data Analysis (EDA) to identify key predictors of survival.
+1. Conduct Exploratory Data Analysis (EDA) to identify key predictors of survival.
 
 Handle class imbalance using SMOTE.
 
-Develop and compare predictive models (Logistic Regression vs. XGBoost).
+2. Develop and compare predictive models (Logistic Regression vs. XGBoost).
 
-Evaluate models using robust metrics like ROC-AUC, Precision, and Cross-Validation.
+3. Evaluate models using robust metrics like ROC-AUC, Precision, and Cross-Validation.
 
 ## 🛠️ Technical Implementation 
-Data Pipeline Preprocessing: Handled missing values (Age, Embarked), encoded categorical variables, and applied feature scaling.
+1. Data Pipeline Preprocessing: Handled missing values (Age, Embarked), encoded categorical variables, and applied feature scaling.
 
-Imbalance Handling: Utilized SMOTE (Synthetic Minority Over-sampling Technique) to ensure the model wasn't biased toward the majority class.
+2. Imbalance Handling: Utilized SMOTE (Synthetic Minority Over-sampling Technique) to ensure the model wasn't biased toward the majority class.
 
-Modeling: * Logistic Regression: Used as a high-interpretability baseline.XGBoost Classifier: Used to capture non-linear relationships and complex patterns.
+3. Modeling: Logistic Regression: Used as a high-interpretability baseline.XGBoost Classifier: Used to capture non-linear relationships and complex patterns.
 
-Evaluation: Metrics include Accuracy, ROC-AUC (Primary), Average Precision, and Confusion Matrices.
+4. Evaluation: Metrics include Accuracy, ROC-AUC (Primary), Average Precision, and Confusion Matrices.
 
 ## 📊 Data Dictionary
 | Variable | Definition | Key/Notes |
@@ -71,37 +72,40 @@ Evaluation: Metrics include Accuracy, ROC-AUC (Primary), Average Precision, and 
 
 Key Findings
 
-XGBoost emerged as the final model due to its superior performance on unseen data.
+1. XGBoost emerged as the final model due to its superior performance on unseen data.
 
-SMOTE significantly improved the model's ability to identify survivors.
+2. SMOTE significantly improved the model's ability to identify survivors.
 
-Feature interactions (like Class vs. Age) play a critical role in predicting outcomes.
+3. Feature interactions (like Class vs. Age) play a critical role in predicting outcomes.
 
 ## ⚠️ Limitations 
-Feature Constraints: Historical data lacks specific details like exact cabin proximity to lifeboats.
+1. Feature Constraints: Historical data lacks specific details like exact cabin proximity to lifeboats.
 
-SMOTE Bias: Synthetic data may not perfectly represent real-world nuances.
+2. SMOTE Bias: Synthetic data may not perfectly represent real-world nuances.
 
-Interpretability: XGBoost is a "black box" compared to Logistic Regression, requiring tools like SHAP for full transparency.
+3. Interpretability: XGBoost is a "black box" compared to Logistic Regression, requiring tools like SHAP for full transparency.
 
 ## 🚀 Future Work 
 
-Model Explainability: Implement SHAP or LIME to explain individual predictions.
+1. Model Explainability: Implement SHAP or LIME to explain individual predictions.
 
-Hyperparameter Tuning: Use Bayesian Optimization for further XGBoost refinement.
+2. Hyperparameter Tuning: Use Bayesian Optimization for further XGBoost refinement.
 
-Deployment: Wrap the model in a Flask or FastAPI wrapper for real-time predictions.
+3. Deployment: Wrap the model in a Flask or FastAPI wrapper for real-time predictions.
 
-Ensemble Learning: Experiment with Stacking models to combine the strengths of linear and tree-based methods.
+4. Ensemble Learning: Experiment with Stacking models to combine the strengths of linear and tree-based methods.
 
-📂 Project Structure 
-
-Plaintext├── Titanic_Analysed.ipynb      # Main analysis & modeling notebook
-├── README.md                   # Project documentation
-├── requirements.txt            # Python dependencies
-└── data/                       # Dataset folder (if applicable)
-
-
+## 📂 Project Structure 
+```
+├── Data                            # Dataset (Titanic Data)
+├── figures                         # Plots from the analysis
+├── LICENSE.md                      # (Authorization to reproduce project)
+├── README.md                       # Project documentation
+├── Titanic_Analysed.ipynb          # Full Data Science Life Cycle notebook
+├── predictions.csv                 # Predictions from ML
+├── README.md                       # Project documentation
+└── requirements.txt                # Dependency list
+```
 ## 💻 Installation & Usage
 1.  **Clone the repository:**
     ```bash
@@ -114,7 +118,7 @@ Plaintext├── Titanic_Analysed.ipynb      # Main analysis & modeling notebo
 3.  **Run the Analysis:**
     Open `Titanic_Analysed.ipynb` in Jupyter Notebook and run all cells.
 
-🧰 Technologies UsedLanguage: Python 3.8+Libraries: Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn, Imbalanced-learn (SMOTE)
+🧰 Technologies Used Language: Python 3.8+ Libraries: Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn, Imbalanced-learn (SMOTE)
 
 ## 📧 Contact
 Adeyeye Blessing Temidayo (adeyeyeblessing2017@gmail.com) Feel free to reach out for collaborations or questions regarding this analysis!
