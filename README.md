@@ -63,7 +63,7 @@ Evaluation: Metrics include Accuracy, ROC-AUC (Primary), Average Precision, and 
         <img src="figures/Feature Correlation Matrix.png" width="400" />
         <img src="figures/Age Distribution by Survival.png" width="400" />
         <img src="figures/Count of survivors.png" width="400" />
-        <img src="figures/Survival Rate by passenger Class.png" width="400" />
+        <img src="figures/Survival Rate by Passenger Class.png" width="400" />
         <img src="figures/Model.png" width="400" />
         <img src="figures/ROC Curves Comparison.png" width="400" /> 
     </tr>
