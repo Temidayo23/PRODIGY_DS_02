@@ -1,7 +1,14 @@
+![Status](https://img.shields.io/badge/status-complete-brightgreen?style=for-the-badge)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-black?style=for-the-badge)
+![Imbalanced-Learn](https://img.shields.io/badge/Imbalanced--Learn-orange?style=for-the-badge)
+
 PRODIGY_DS_02
 ---
-Author: Adeyeye Blessing Temidayo
-CIN: PIT/DEC25/10676 
+**Author:** Adeyeye Blessing Temidayo  
+**CIN:** PIT/DEC25/10676  
 ---
 ## 🚢 Titanic Survival Prediction: Machine Learning Analysis 
 
