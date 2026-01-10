@@ -59,6 +59,7 @@ Evaluation: Metrics include Accuracy, ROC-AUC (Primary), Average Precision, and 
 
 ## Survival Distribution
 ![Correlation Matrix](figures/Features Correlation Matrix.png)
+<img src="figures/Feature Correlation Matrix.png" width="400" />
 
 Key Findings
 
